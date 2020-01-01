@@ -1,6 +1,6 @@
 # l4d2coop
 
-### 概要
+## 概要
 
 Left 4 dead 2で8人coop用のプラグイン、設定ファイルをまとめて入れる（ついでに難易度ぶち上げ）
 
@@ -12,15 +12,15 @@ Left 4 dead 2で8人coop用のプラグイン、設定ファイルをまとめて入れる（ついでに難易
 
 ・[LEFT12DEAD](https://forums.alliedmods.net/showthread.php?t=126857) 
 
------------------
 
-### インストール方法
 
-#### サーバの設定
+## インストール方法
 
-##### ①[steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD)をダウンロード
+### サーバの設定
 
-##### ②適当な場所でSteamCMD.exeを起動しL4D2サーバをインストール
+#### ①[steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD)をダウンロード
+
+#### ②適当な場所でSteamCMD.exeを起動しL4D2サーバをインストール
 
 ```
 login anonymous
@@ -28,7 +28,7 @@ force_install_dir l4d2server
 app_update 222860
 ```
 
-##### ③サーバをインストールしたフォルダにleft4dead2フォルダとstart.batを入れる
+#### ③サーバをインストールしたフォルダにleft4dead2フォルダとstart.batを入れる
 
 gitるなら↓から
 
@@ -39,7 +39,7 @@ git fetch origin
 git reset --hard origin/master
 ```
 
-##### ④サーバ系の設定をする。
+#### ④サーバ系の設定をする。
 
 ・left4dead2\cfg\server.cfg
 
@@ -66,7 +66,7 @@ git reset --hard origin/master
 
 その他特殊感染者の設定あたりはきついので普通にやるなら、要調整
 
-##### ⑤start.batを起動する。
+#### ⑤start.batを起動する。
 
 起動オプションを設定し、srcds.exeを起動するやつ。
 
@@ -82,7 +82,7 @@ git reset --hard origin/master
 
 人数増やすなら、太字部分を変える。
 
-##### ⑥コンソールから接続
+#### ⑥コンソールから接続
 
 connect `ローカルのIPアドレス`:`ポート`
 
@@ -90,9 +90,9 @@ connect `ローカルのIPアドレス`:`ポート`
 
 確認方法はサーバをGUIで起動してIPアドレスのとこに出るやつ
 
-#### クライアントの設定
+### クライアントの設定
 
-##### ①コンソールから接続
+#### ①コンソールから接続
 
 connect `グローバルのIPアドレス`:`ポート`
 
@@ -100,13 +100,13 @@ connect `グローバルのIPアドレス`:`ポート`
 
 
 
-### メモ
+## メモ
 
 ログは`left4dead2\addons\sourcemod\logs`あたりに出てそう
 
----------------------------
 
-### 参考
+
+## 参考
 
 http://gengen5656.blog46.fc2.com/blog-entry-34.html
 
