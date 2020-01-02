@@ -1,0 +1,47 @@
+"Phrases"
+{
+	"Avoiding"
+	{
+		"#format"	"{1:d}"
+		"en"	"Canceling defib-glitch... Do not change your character.(using {1}/7 slots)"
+		"jp"	"AEDバグ回避中...キャラを変更しないで下さい。（{1}/7 スロット使用中）"
+	}
+	
+	"AvoidingDone"
+	{
+		"en"	"Defib-glitch canceling deactivated."
+		"jp"	"AEDバグ回避完了。"
+	}
+	
+	"BeingRevived"
+	{
+		"#format"	"{1:s}"
+		"en"	"Being revived by {1}..."
+		"jp"	"{1} に蘇生されています..."
+	}
+	
+	"RevivingBot"
+	{
+		"#format"	"{1:s}"
+		"en"	"Reviving Bot {1} ..."
+		"jp"	"Bot {1} を蘇生中..."
+	}
+	
+	"DefibNotAvailable"
+	{
+		"en"	"All reviving slots are full. defibrillator is temporally not available."
+		"jp"	"蘇生スロットが一杯です。AEDは一時的に使用できません。"
+	}
+	
+	"DefibAvailable"
+	{
+		"en"	"Defibrillator is available now."
+		"jp"	"AEDは使用可能になりました。"
+	}
+
+	"OtherPlayerReviving"
+	{
+		"en"	"This player being revived by other player."
+		"jp"	"このプレイヤーは他のプレイヤーが蘇生中です。"
+	}
+}
