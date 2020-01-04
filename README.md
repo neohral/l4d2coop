@@ -4,6 +4,8 @@
 
 Left 4 dead 2で8人coop用のプラグイン、設定ファイルをまとめて入れる（ついでに難易度ぶち上げ）
 
+○前提mod
+
 ・[Metamod](http://www.metamodsource.net/)
 
 ・[Sourcemod](http://www.sourcemod.net/)
@@ -12,7 +14,13 @@ Left 4 dead 2で8人coop用のプラグイン、設定ファイルをまとめて入れる（ついでに難易
 
 ・[LEFT12DEAD](https://forums.alliedmods.net/showthread.php?t=126857) 
 
+・[L4D Idle Fix](https://chasethecore.run/?page_id=1121)
 
+・~~[L4D2 Defib Glitch Canceller](https://chasethecore.run/?page_id=821)~~
+
+・[DHooks](https://forums.alliedmods.net/showthread.php?p=2588686#post2588686)
+
+・[Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483)
 
 ## インストール方法
 
@@ -102,9 +110,9 @@ connect `グローバルのIPアドレス`:`ポート`
 
 ## メモ
 
-ログは`left4dead2\addons\sourcemod\logs`あたりに出てそう
+・ログは`left4dead2\addons\sourcemod\logs`あたりに出てそう
 
-
+・[The Ultimate Mod Testing and Reviewing Area](https://steamcommunity.com/sharedfiles/filedetails/?id=469986973&searchtext=TUMTaRA)
 
 ## 参考
 
