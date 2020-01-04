@@ -43,8 +43,7 @@ gitるなら↓から
 ```
 git init
 git remote add origin https://github.com/neohral/l4d2coop.git
-git fetch origin
-git reset --hard origin/master
+git pull origin master
 ```
 
 #### ④サーバ系の設定をする。
