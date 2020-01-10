@@ -1,0 +1,69 @@
+"Phrases"
+{
+	"block chance"
+	{
+		"#format"	"{1:s}"
+		"jp"	"いまは {1} が使用できません"
+		"en"	"block {1} (chat command)"
+	}
+
+	"unlock chance"
+	{
+		"#format"	"{1:s}"
+		"jp"	"{1} の制限が解除されました"
+		"en"	"unlock {1} (chat command)"
+	}
+
+	"info chance"
+	{
+		"#format"	"{1:s}"
+		"jp"	"死亡中に {1} と叫ぶと復活します"
+		"en"	"if player is dead. say {1} player revive"
+	}
+
+	"hint chance"
+	{
+		"jp"	"!chance と叫べ!"
+		"en"	"say   !chance"
+	}
+
+	"block rejoin"
+	{
+		"jp"	"空きBOTがいない為、しばらくお待ちください"
+		"en"	"there is no BOT. please wait."
+	}
+
+	"unlock rejoin"
+	{
+		"#format"	"{1:s}"
+		"jp"	"{1} で空きBOTに乗り移ります"
+		"en"	"chat command {1} enters an BOT"
+	}
+
+	"info rejoin"
+	{
+		"#format"	"{1:s}"
+		"jp"	"空きBOTがいない場合は暫くお待ちください"
+		"en"	"please wait for a while if there is no BOT"
+	}
+
+	"hint rejoin"
+	{
+		"jp"	"!rejoin と叫べ!"
+		"en"	"say   !rejoin"
+	}
+
+	"hint afk"
+	{
+		"jp"	"!rejoin と叫べ!(ゲームへ参加)"
+		"en"	"say   !rejoin"
+	}
+
+	"auto respawn"
+	{
+		"#format"	"{1:d}"
+		"jp"	"あと{1}秒で復活します"
+		"en"	"respawn @ {1}sec"
+	}
+
+}

@@ -22,6 +22,8 @@ Left 4 dead 2で8人coop用のプラグイン、設定ファイルをまとめて入れる（ついでに難易
 
 ・[Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483)
 
+・[l4d player ver 0.07a](http://nico-op.forjp.net/doku.php?id=nicofile)
+
 ## インストール方法
 
 ### サーバの設定

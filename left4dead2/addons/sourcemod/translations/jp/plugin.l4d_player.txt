@@ -1,0 +1,53 @@
+"Phrases"
+{
+	"block chance"
+	{
+		"jp"	"いまは {1} が使用できません"
+	}
+
+	"unlock chance"
+	{
+		"jp"	"{1} の制限が解除されました"
+	}
+
+	"info chance"
+	{
+		"jp"	"死亡中に {1} と叫ぶと復活します"
+	}
+
+	"hint chance"
+	{
+		"jp"	"!chance と叫べ!"
+	}
+
+	"block rejoin"
+	{
+		"jp"	"空きBOTがいない為、しばらくお待ちください"
+	}
+
+	"unlock rejoin"
+	{
+		"jp"	"{1} で空きBOTに乗り移ります"
+	}
+
+	"info rejoin"
+	{
+		"jp"	"空きBOTがいない場合は暫くお待ちください"
+	}
+
+	"hint rejoin"
+	{
+		"jp"	"!rejoin と叫べ!"
+	}
+
+	"hint afk"
+	{
+		"jp"	"!rejoin と叫べ!(ゲームへ参加)"
+	}
+
+	"auto respawn"
+	{
+		"jp"	"あと{1}秒で復活します"
+	}
+
+}

@@ -1,1 +1,1 @@
-srcds.exe -console -autoupdate -game left4dead2 +hostport 27016 +map "c1m1_hotel coop" +maxplayers 8 +exec server.cfg
+srcds.exe -console -autoupdate -game left4dead2 +hostport 27016 +map "TUMTaRA coop" +maxplayers 8 +exec server.cfg

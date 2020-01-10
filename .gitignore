@@ -99,4 +99,12 @@ srcds.exe
 statu.txt
 steamapps/
 update/
+steam_appid.txt
 left4dead2/addons/*.vpk
+left4dead2/addonlist.txt
+left4dead2/addons/sourcemod/data/
+left4dead2/addons/sourcemod/logs/
+left4dead2/cfg/sourcemod/basevotes.cfg
+left4dead2/cfg/sourcemod/funcommands.cfg
+left4dead2/cfg/sourcemod/funvotes.cfg
+left4dead2/downloads/
