@@ -1,0 +1,8 @@
+"Phrases"
+{
+	"Crawl"
+	{
+		"en"		"Press FORWARD to crawl while incapped!"
+		"hu"		"Nyomd meg az ELÕRE gombot a kúszáshoz miközben mozgásképtelen vagy!"
+	}
+}
