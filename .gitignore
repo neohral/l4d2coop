@@ -108,3 +108,5 @@ left4dead2/cfg/sourcemod/basevotes.cfg
 left4dead2/cfg/sourcemod/funcommands.cfg
 left4dead2/cfg/sourcemod/funvotes.cfg
 left4dead2/downloads/
+left4dead2/cfg/sourcemod/l4d2_incapped_crawling.cfg
+left4dead2/stats.txt
