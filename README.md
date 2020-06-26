@@ -26,6 +26,8 @@ Left 4 dead 2で8人coop用のプラグイン、設定ファイルをまとめて入れる（ついでに難易
 
 ・[Incapped Crawling with Animation](https://forums.alliedmods.net/showthread.php?p=1291588)
 
+・[[L4D2] LAST BOSS](https://forums.alliedmods.net/showthread.php?t=129013)
+
 ## インストール方法
 
 ### サーバの設定
@@ -63,11 +65,11 @@ git pull origin master
 | sv_region                    | 地域設定(4:アジア)                       | 4          |
 | sv_alltalk                   | ボイチャの設定(0:味方のみ1:全体に)       | 0          |
 | sm_cvar sv_force_unreserved  | 直接ゲームに参加する                     | 1          |
-| sm_cvar sv_visiblemaxplayers | サーバ画面で見せる参加人数（見た目だけ） | **8**      |
+| sm_cvar sv_visiblemaxplayers | サーバ画面で見せる参加人数（見た目だけ） | **10**     |
 | sm_cvar sv_removehumanlimit  | 参加上限のキックを無効にする             | 1          |
-| sm_cvar sv_maxplayers        | 接続可能な最大人数                       | **8**      |
-| sm_cvar l4d_maxplayers       | 接続可能な最大人数(いらないかも)         | **8**      |
-| sm_cvar l4d_survivor_limit   | BOTを含めた生存者の人数                  | **8**      |
+| sm_cvar sv_maxplayers        | 接続可能な最大人数                       | **10**     |
+| sm_cvar l4d_maxplayers       | 接続可能な最大人数(いらないかも)         | **10**     |
+| sm_cvar l4d_survivor_limit   | BOTを含めた生存者の人数                  | **10**     |
 | sm_cvar l4d_infected_limit   | 特殊感染者の最大同時発生数               | 20         |
 | sm_cvar l4d_players_delay    | なにこれ(とりあえず必要そう)             | 12         |
 | sm_cvar l4d_players_kick     | なにこれ(とりあえず必要そう)             | 0.7        |
@@ -89,7 +91,7 @@ git pull origin master
 | -console                     | CUIコンソールで起動する            |                   |
 | +hostport                    | IPポート番号を指定する             | 27016             |
 | +map "マップ名 ゲームモード" | マップとゲームモードを指定         | "c1m1_hotel coop" |
-| +maxplayers                  |                                    | **8**             |
+| +maxplayers                  |                                    | **10**            |
 
 人数増やすなら、太字部分を変える。
 
