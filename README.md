@@ -56,24 +56,23 @@ git pull origin master
 
 ・left4dead2\cfg\server.cfg
 
-| 設定項目                     | 設定値                                   | 設定値     |
-| ---------------------------- | ---------------------------------------- | ---------- |
-| hostname                     | サーバの名前                             | l4d2server |
-| sv_allow_lobby_connect_only  | 0にするとコンソールから接続できる        | 0          |
-| rcon_password                | サーバ管理者のパスワード                 | "password" |
-| sv_lan                       | ネットワーク設定(0:インターネット 1:LAN) | 0          |
-| sv_region                    | 地域設定(4:アジア)                       | 4          |
-| sv_alltalk                   | ボイチャの設定(0:味方のみ1:全体に)       | 0          |
-| sm_cvar sv_force_unreserved  | 直接ゲームに参加する                     | 1          |
-| sm_cvar sv_visiblemaxplayers | サーバ画面で見せる参加人数（見た目だけ） | **10**     |
-| sm_cvar sv_removehumanlimit  | 参加上限のキックを無効にする             | 1          |
-| sm_cvar sv_maxplayers        | 接続可能な最大人数                       | **10**     |
-| sm_cvar l4d_maxplayers       | 接続可能な最大人数(いらないかも)         | **10**     |
-| sm_cvar l4d_survivor_limit   | BOTを含めた生存者の人数                  | **10**     |
-| sm_cvar l4d_infected_limit   | 特殊感染者の最大同時発生数               | 20         |
-| sm_cvar l4d_players_delay    | なにこれ(とりあえず必要そう)             | 12         |
-| sm_cvar l4d_players_kick     | なにこれ(とりあえず必要そう)             | 0.7        |
-| sm_cvar l4d_players_timer    | なにこれ(とりあえず必要そう)             | 1.5        |
+| 設定項目                    | 設定値                                   | 設定値     |
+| --------------------------- | ---------------------------------------- | ---------- |
+| hostname                    | サーバの名前                             | l4d2server |
+| sv_allow_lobby_connect_only | 0にするとコンソールから接続できる        | 0          |
+| rcon_password               | サーバ管理者のパスワード                 | "password" |
+| sv_lan                      | ネットワーク設定(0:インターネット 1:LAN) | 0          |
+| sv_region                   | 地域設定(4:アジア)                       | 4          |
+| sv_alltalk                  | ボイチャの設定(0:味方のみ1:全体に)       | 0          |
+| sm_cvar sv_force_unreserved | 直接ゲームに参加する                     | 1          |
+| sm_cvar sv_removehumanlimit | 参加上限のキックを無効にする             | 1          |
+| sm_cvar sv_maxplayers       | 接続可能な最大人数                       | **10**     |
+| sm_cvar l4d_maxplayers      | 接続可能な最大人数(いらないかも)         | **10**     |
+| sm_cvar l4d_survivor_limit  | BOTを含めた生存者の人数                  | **10**     |
+| sm_cvar l4d_infected_limit  | 特殊感染者の最大同時発生数               | 20         |
+| sm_cvar l4d_players_delay   | なにこれ(とりあえず必要そう)             | 12         |
+| sm_cvar l4d_players_kick    | なにこれ(とりあえず必要そう)             | 0.7        |
+| sm_cvar l4d_players_timer   | なにこれ(とりあえず必要そう)             | 1.5        |
 
 人数増やすなら、太字部分を変える
 
@@ -103,21 +102,32 @@ connect `ローカルのIPアドレス`:`ポート`
 
 確認方法はサーバをGUIで起動してIPアドレスのとこに出るやつ
 
-### クライアントの設定
+### クライアントからの接続
 
-#### ①コンソールから接続
+#### ①コンソールを有効化する
+
+設定→キーボード→開発者コンソール
+
+#### ②コンソールから接続
+
+半角キーでコンソールを開く
 
 connect `グローバルのIPアドレス`:`ポート`
 
+## 使えるようになるチャットコマンド
+
+- !rejoin：空いてるbotに入る
+- !chance：最後のチャプターで復活できる
 ------------------
-
-
-
 ## メモ
 
-・ログは`left4dead2\addons\sourcemod\logs`あたりに出てそう
+- ログは`left4dead2\addons\sourcemod\logs`あたりに出てそう
 
-・[The Ultimate Mod Testing and Reviewing Area](https://steamcommunity.com/sharedfiles/filedetails/?id=469986973&searchtext=TUMTaRA)
+- [The Ultimate Mod Testing and Reviewing Area](https://steamcommunity.com/sharedfiles/filedetails/?id=469986973&searchtext=TUMTaRA)
+### マップについて
+
+`changelevel mapid`でマップの変更ができる。   
+[mapid](https://commands.gg/l4d2/map)でデフォルトのマップIDは確認できる。
 
 ## 参考
 
