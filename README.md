@@ -1,40 +1,40 @@
 # l4d2coop
 
-## ŠT—v
+## æ¦‚è¦
 
-Left 4 dead 2‚Å8lcoop—p‚Ìƒvƒ‰ƒOƒCƒ“Aİ’èƒtƒ@ƒCƒ‹‚ğ‚Ü‚Æ‚ß‚Ä“ü‚ê‚éi‚Â‚¢‚Å‚É“ïˆÕ“x‚Ô‚¿ã‚°j
+Left 4 dead 2ã§10äººcoopç”¨ã®ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã€è¨­å®šãƒ•ã‚¡ã‚¤ãƒ«ã‚’ã¾ã¨ã‚ã¦å…¥ã‚Œã‚‹ï¼ˆã¤ã„ã§ã«é›£æ˜“åº¦ã¶ã¡ä¸Šã’ï¼‰
 
-›‘O’ñmod
+â—‹å‰æmod
 
-E[Metamod](http://www.metamodsource.net/)
+ãƒ»[Metamod](http://www.metamodsource.net/)
 
-E[Sourcemod](http://www.sourcemod.net/)
+ãƒ»[Sourcemod](http://www.sourcemod.net/)
 
-E[L4DToolZ](https://forums.alliedmods.net/showthread.php?t=93600)
+ãƒ»[L4DToolZ](https://forums.alliedmods.net/showthread.php?t=93600)
 
-E[LEFT12DEAD](https://forums.alliedmods.net/showthread.php?t=126857) 
+ãƒ»[LEFT12DEAD](https://forums.alliedmods.net/showthread.php?t=126857) 
 
-E[L4D Idle Fix](https://chasethecore.run/?page_id=1121)
+ãƒ»[L4D Idle Fix](https://chasethecore.run/?page_id=1121)
 
-E~~[L4D2 Defib Glitch Canceller](https://chasethecore.run/?page_id=821)~~
+ãƒ»~~[L4D2 Defib Glitch Canceller](https://chasethecore.run/?page_id=821)~~
 
-E[DHooks](https://forums.alliedmods.net/showthread.php?p=2588686#post2588686)
+ãƒ»[DHooks](https://forums.alliedmods.net/showthread.php?p=2588686#post2588686)
 
-E[Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483)
+ãƒ»[Defib_Fix](https://forums.alliedmods.net/showthread.php?t=315483)
 
-E[l4d player ver 0.07a](http://nico-op.forjp.net/doku.php?id=nicofile)
+ãƒ»[l4d player ver 0.07a](http://nico-op.forjp.net/doku.php?id=nicofile)
 
-E[Incapped Crawling with Animation](https://forums.alliedmods.net/showthread.php?p=1291588)
+ãƒ»[Incapped Crawling with Animation](https://forums.alliedmods.net/showthread.php?p=1291588)
 
-E[[L4D2] LAST BOSS](https://forums.alliedmods.net/showthread.php?t=129013)
+ãƒ»[[L4D2] LAST BOSS](https://forums.alliedmods.net/showthread.php?t=129013)
 
-## ƒCƒ“ƒXƒg[ƒ‹•û–@
+## ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ–¹æ³•
 
-### ƒT[ƒo‚Ìİ’è
+### ã‚µãƒ¼ãƒã®è¨­å®š
 
-#### ‡@[steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD)‚ğƒ_ƒEƒ“ƒ[ƒh
+#### â‘ [steamcmd](https://developer.valvesoftware.com/wiki/SteamCMD)ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
 
-#### ‡A“K“–‚ÈêŠ‚ÅSteamCMD.exe‚ğ‹N“®‚µL4D2ƒT[ƒo‚ğƒCƒ“ƒXƒg[ƒ‹
+#### â‘¡é©å½“ãªå ´æ‰€ã§SteamCMD.exeã‚’èµ·å‹•ã—L4D2ã‚µãƒ¼ãƒã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
 ```
 login anonymous
@@ -42,9 +42,9 @@ force_install_dir l4d2server
 app_update 222860
 ```
 
-#### ‡BƒT[ƒo‚ğƒCƒ“ƒXƒg[ƒ‹‚µ‚½ƒtƒHƒ‹ƒ_‚Éleft4dead2ƒtƒHƒ‹ƒ_‚Æstart.bat‚ğ“ü‚ê‚é
+#### â‘¢ã‚µãƒ¼ãƒã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ãŸãƒ•ã‚©ãƒ«ãƒ€ã«left4dead2ãƒ•ã‚©ãƒ«ãƒ€ã¨start.batã‚’å…¥ã‚Œã‚‹
 
-git‚é‚È‚ç«‚©‚ç
+gitã‚‹ãªã‚‰â†“ã‹ã‚‰
 
 ```
 git init
@@ -52,85 +52,85 @@ git remote add origin https://github.com/neohral/l4d2coop.git
 git pull origin master
 ```
 
-#### ‡CƒT[ƒoŒn‚Ìİ’è‚ğ‚·‚éB
+#### â‘£ã‚µãƒ¼ãƒç³»ã®è¨­å®šã‚’ã™ã‚‹ã€‚
 
-Eleft4dead2\cfg\server.cfg
+ãƒ»left4dead2\cfg\server.cfg
 
-| İ’è€–Ú                    | İ’è’l                                   | İ’è’l     |
+| è¨­å®šé …ç›®                    | è¨­å®šå€¤                                   | è¨­å®šå€¤     |
 | --------------------------- | ---------------------------------------- | ---------- |
-| hostname                    | ƒT[ƒo‚Ì–¼‘O                             | l4d2server |
-| sv_allow_lobby_connect_only | 0‚É‚·‚é‚ÆƒRƒ“ƒ\[ƒ‹‚©‚çÚ‘±‚Å‚«‚é        | 0          |
-| rcon_password               | ƒT[ƒoŠÇ—Ò‚ÌƒpƒXƒ[ƒh                 | "password" |
-| sv_lan                      | ƒlƒbƒgƒ[ƒNİ’è(0:ƒCƒ“ƒ^[ƒlƒbƒg 1:LAN) | 0          |
-| sv_region                   | ’nˆæİ’è(4:ƒAƒWƒA)                       | 4          |
-| sv_alltalk                  | ƒ{ƒCƒ`ƒƒ‚Ìİ’è(0:–¡•û‚Ì‚İ1:‘S‘Ì‚É)       | 0          |
-| sm_cvar sv_force_unreserved | ’¼ÚƒQ[ƒ€‚ÉQ‰Á‚·‚é                     | 1          |
-| sm_cvar sv_removehumanlimit | Q‰ÁãŒÀ‚ÌƒLƒbƒN‚ğ–³Œø‚É‚·‚é             | 1          |
-| sm_cvar sv_maxplayers       | Ú‘±‰Â”\‚ÈÅ‘ål”                       | **10**     |
-| sm_cvar l4d_maxplayers      | Ú‘±‰Â”\‚ÈÅ‘ål”(‚¢‚ç‚È‚¢‚©‚à)         | **10**     |
-| sm_cvar l4d_survivor_limit  | BOT‚ğŠÜ‚ß‚½¶‘¶Ò‚Ìl”                  | **10**     |
-| sm_cvar l4d_infected_limit  | “ÁêŠ´õÒ‚ÌÅ‘å“¯”­¶”               | 20         |
-| sm_cvar l4d_players_delay   | ‚È‚É‚±‚ê(‚Æ‚è‚ ‚¦‚¸•K—v‚»‚¤)             | 12         |
-| sm_cvar l4d_players_kick    | ‚È‚É‚±‚ê(‚Æ‚è‚ ‚¦‚¸•K—v‚»‚¤)             | 0.7        |
-| sm_cvar l4d_players_timer   | ‚È‚É‚±‚ê(‚Æ‚è‚ ‚¦‚¸•K—v‚»‚¤)             | 1.5        |
+| hostname                    | ã‚µãƒ¼ãƒã®åå‰                             | l4d2server |
+| sv_allow_lobby_connect_only | 0ã«ã™ã‚‹ã¨ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã‹ã‚‰æ¥ç¶šã§ãã‚‹        | 0          |
+| rcon_password               | ã‚µãƒ¼ãƒç®¡ç†è€…ã®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰                 | "password" |
+| sv_lan                      | ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯è¨­å®š(0:ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆ 1:LAN) | 0          |
+| sv_region                   | åœ°åŸŸè¨­å®š(4:ã‚¢ã‚¸ã‚¢)                       | 4          |
+| sv_alltalk                  | ãƒœã‚¤ãƒãƒ£ã®è¨­å®š(0:å‘³æ–¹ã®ã¿1:å…¨ä½“ã«)       | 0          |
+| sm_cvar sv_force_unreserved | ç›´æ¥ã‚²ãƒ¼ãƒ ã«å‚åŠ ã™ã‚‹                     | 1          |
+| sm_cvar sv_removehumanlimit | å‚åŠ ä¸Šé™ã®ã‚­ãƒƒã‚¯ã‚’ç„¡åŠ¹ã«ã™ã‚‹             | 1          |
+| sm_cvar sv_maxplayers       | æ¥ç¶šå¯èƒ½ãªæœ€å¤§äººæ•°                       | **10**     |
+| sm_cvar l4d_maxplayers      | æ¥ç¶šå¯èƒ½ãªæœ€å¤§äººæ•°(ã„ã‚‰ãªã„ã‹ã‚‚)         | **10**     |
+| sm_cvar l4d_survivor_limit  | BOTã‚’å«ã‚ãŸç”Ÿå­˜è€…ã®äººæ•°                  | **10**     |
+| sm_cvar l4d_infected_limit  | ç‰¹æ®Šæ„ŸæŸ“è€…ã®æœ€å¤§åŒæ™‚ç™ºç”Ÿæ•°               | 20         |
+| sm_cvar l4d_players_delay   | ãªã«ã“ã‚Œ(ã¨ã‚Šã‚ãˆãšå¿…è¦ãã†)             | 12         |
+| sm_cvar l4d_players_kick    | ãªã«ã“ã‚Œ(ã¨ã‚Šã‚ãˆãšå¿…è¦ãã†)             | 0.7        |
+| sm_cvar l4d_players_timer   | ãªã«ã“ã‚Œ(ã¨ã‚Šã‚ãˆãšå¿…è¦ãã†)             | 1.5        |
 
-l”‘‚â‚·‚È‚çA‘¾š•”•ª‚ğ•Ï‚¦‚é
+äººæ•°å¢—ã‚„ã™ãªã‚‰ã€å¤ªå­—éƒ¨åˆ†ã‚’å¤‰ãˆã‚‹
 
-‚»‚Ì‘¼“ÁêŠ´õÒ‚Ìİ’è‚ ‚½‚è‚Í‚«‚Â‚¢‚Ì‚Å•’Ê‚É‚â‚é‚È‚çA—v’²®
+ãã®ä»–ç‰¹æ®Šæ„ŸæŸ“è€…ã®è¨­å®šã‚ãŸã‚Šã¯ãã¤ã„ã®ã§æ™®é€šã«ã‚„ã‚‹ãªã‚‰ã€è¦èª¿æ•´
 
-#### ‡Dstart.bat‚ğ‹N“®‚·‚éB
+#### â‘¤start.batã‚’èµ·å‹•ã™ã‚‹ã€‚
 
-‹N“®ƒIƒvƒVƒ‡ƒ“‚ğİ’è‚µAsrcds.exe‚ğ‹N“®‚·‚é‚â‚ÂB
+èµ·å‹•ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã‚’è¨­å®šã—ã€srcds.exeã‚’èµ·å‹•ã™ã‚‹ã‚„ã¤ã€‚
 
-Estart.bat
+ãƒ»start.bat
 
-| ‹N“®ƒIƒvƒVƒ‡ƒ“               | ŠT—v                               | İ’è’l            |
+| èµ·å‹•ã‚ªãƒ—ã‚·ãƒ§ãƒ³               | æ¦‚è¦                               | è¨­å®šå€¤            |
 | ---------------------------- | ---------------------------------- | ----------------- |
-| -autoupdate                  | ‹N“®‚ÉƒAƒbƒvƒf[ƒgƒ`ƒFƒbƒN‚ğ‚·‚é |                   |
-| -console                     | CUIƒRƒ“ƒ\[ƒ‹‚Å‹N“®‚·‚é            |                   |
-| +hostport                    | IPƒ|[ƒg”Ô†‚ğw’è‚·‚é             | 27016             |
-| +map "ƒ}ƒbƒv–¼ ƒQ[ƒ€ƒ‚[ƒh" | ƒ}ƒbƒv‚ÆƒQ[ƒ€ƒ‚[ƒh‚ğw’è         | "c1m1_hotel coop" |
+| -autoupdate                  | èµ·å‹•æ™‚ã«ã‚¢ãƒƒãƒ—ãƒ‡ãƒ¼ãƒˆãƒã‚§ãƒƒã‚¯ã‚’ã™ã‚‹ |                   |
+| -console                     | CUIã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã§èµ·å‹•ã™ã‚‹            |                   |
+| +hostport                    | IPãƒãƒ¼ãƒˆç•ªå·ã‚’æŒ‡å®šã™ã‚‹             | 27016             |
+| +map "ãƒãƒƒãƒ—å ã‚²ãƒ¼ãƒ ãƒ¢ãƒ¼ãƒ‰" | ãƒãƒƒãƒ—ã¨ã‚²ãƒ¼ãƒ ãƒ¢ãƒ¼ãƒ‰ã‚’æŒ‡å®š         | "c1m1_hotel coop" |
 | +maxplayers                  |                                    | **10**            |
 
-l”‘‚â‚·‚È‚çA‘¾š•”•ª‚ğ•Ï‚¦‚éB
+äººæ•°å¢—ã‚„ã™ãªã‚‰ã€å¤ªå­—éƒ¨åˆ†ã‚’å¤‰ãˆã‚‹ã€‚
 
-#### ‡EƒRƒ“ƒ\[ƒ‹‚©‚çÚ‘±
+#### â‘¥ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã‹ã‚‰æ¥ç¶š
 
-connect `ƒ[ƒJƒ‹‚ÌIPƒAƒhƒŒƒX`:`ƒ|[ƒg`
+connect `ãƒ­ãƒ¼ã‚«ãƒ«ã®IPã‚¢ãƒ‰ãƒ¬ã‚¹`:`ãƒãƒ¼ãƒˆ`
 
-¦ƒ[ƒJƒ‹‚ÌIPƒAƒhƒŒƒX‚Íƒ‹[ƒvƒoƒbƒNƒAƒhƒŒƒX(127.0.0.1)‚¶‚á‚È‚©‚Á‚½
+â€»ãƒ­ãƒ¼ã‚«ãƒ«ã®IPã‚¢ãƒ‰ãƒ¬ã‚¹ã¯ãƒ«ãƒ¼ãƒ—ãƒãƒƒã‚¯ã‚¢ãƒ‰ãƒ¬ã‚¹(127.0.0.1)ã˜ã‚ƒãªã‹ã£ãŸ
 
-Šm”F•û–@‚ÍƒT[ƒo‚ğGUI‚Å‹N“®‚µ‚ÄIPƒAƒhƒŒƒX‚Ì‚Æ‚±‚Éo‚é‚â‚Â
+ç¢ºèªæ–¹æ³•ã¯ã‚µãƒ¼ãƒã‚’GUIã§èµ·å‹•ã—ã¦IPã‚¢ãƒ‰ãƒ¬ã‚¹ã®ã¨ã“ã«å‡ºã‚‹ã‚„ã¤
 
-### ƒNƒ‰ƒCƒAƒ“ƒg‚©‚ç‚ÌÚ‘±
+### ã‚¯ãƒ©ã‚¤ã‚¢ãƒ³ãƒˆã‹ã‚‰ã®æ¥ç¶š
 
-#### ‡@ƒRƒ“ƒ\[ƒ‹‚ğ—LŒø‰»‚·‚é
+#### â‘ ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã‚’æœ‰åŠ¹åŒ–ã™ã‚‹
 
-İ’è¨ƒL[ƒ{[ƒh¨ŠJ”­ÒƒRƒ“ƒ\[ƒ‹
+è¨­å®šâ†’ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰â†’é–‹ç™ºè€…ã‚³ãƒ³ã‚½ãƒ¼ãƒ«
 
-#### ‡AƒRƒ“ƒ\[ƒ‹‚©‚çÚ‘±
+#### â‘¡ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã‹ã‚‰æ¥ç¶š
 
-”¼ŠpƒL[‚ÅƒRƒ“ƒ\[ƒ‹‚ğŠJ‚­
+åŠè§’ã‚­ãƒ¼ã§ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã‚’é–‹ã
 
-connect `ƒOƒ[ƒoƒ‹‚ÌIPƒAƒhƒŒƒX`:`ƒ|[ƒg`
+connect `ã‚°ãƒ­ãƒ¼ãƒãƒ«ã®IPã‚¢ãƒ‰ãƒ¬ã‚¹`:`ãƒãƒ¼ãƒˆ`
 
-## g‚¦‚é‚æ‚¤‚É‚È‚éƒ`ƒƒƒbƒgƒRƒ}ƒ“ƒh
+## ä½¿ãˆã‚‹ã‚ˆã†ã«ãªã‚‹ãƒãƒ£ãƒƒãƒˆã‚³ãƒãƒ³ãƒ‰
 
-- !rejoinF‹ó‚¢‚Ä‚ébot‚É“ü‚é
-- !chanceFÅŒã‚Ìƒ`ƒƒƒvƒ^[‚Å•œŠˆ‚Å‚«‚é
+- !rejoinï¼šç©ºã„ã¦ã‚‹botã«å…¥ã‚‹
+- !chanceï¼šæœ€å¾Œã®ãƒãƒ£ãƒ—ã‚¿ãƒ¼ã§å¾©æ´»ã§ãã‚‹
 ------------------
-## ƒƒ‚
+## ãƒ¡ãƒ¢
 
-- ƒƒO‚Í`left4dead2\addons\sourcemod\logs`‚ ‚½‚è‚Éo‚Ä‚»‚¤
+- ãƒ­ã‚°ã¯`left4dead2\addons\sourcemod\logs`ã‚ãŸã‚Šã«å‡ºã¦ãã†
 
 - [The Ultimate Mod Testing and Reviewing Area](https://steamcommunity.com/sharedfiles/filedetails/?id=469986973&searchtext=TUMTaRA)
-### ƒ}ƒbƒv‚É‚Â‚¢‚Ä
+### ãƒãƒƒãƒ—ã«ã¤ã„ã¦
 
-`changelevel mapid`‚Åƒ}ƒbƒv‚Ì•ÏX‚ª‚Å‚«‚éB   
-[mapid](https://commands.gg/l4d2/map)‚ÅƒfƒtƒHƒ‹ƒg‚Ìƒ}ƒbƒvID‚ÍŠm”F‚Å‚«‚éB
+`changelevel mapid`ã§ãƒãƒƒãƒ—ã®å¤‰æ›´ãŒã§ãã‚‹ã€‚   
+[mapid](https://commands.gg/l4d2/map)ã§ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã®ãƒãƒƒãƒ—IDã¯ç¢ºèªã§ãã‚‹ã€‚
 
-## Ql
+## å‚è€ƒ
 
 http://gengen5656.blog46.fc2.com/blog-entry-34.html
 
-2011”N‚Ì‹L–‚È‚Ì‚ÅAƒCƒ“ƒXƒg[ƒ‹‚·‚é‚à‚Ì‚Æ‚©‚ÍÅV‚Ì‚â‚Â‚ğæ‚Á‚Ä‚«‚½‚Ù‚¤‚ª‚¢‚¢(1”s)
+2011å¹´ã®è¨˜äº‹ãªã®ã§ã€ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹ã‚‚ã®ã¨ã‹ã¯æœ€æ–°ã®ã‚„ã¤ã‚’å–ã£ã¦ããŸã»ã†ãŒã„ã„(1æ•—)
